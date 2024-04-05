@@ -1,0 +1,112 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f4b436;
+    padding: 2em;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #fff;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "A B";
+    flex: 1;
+    padding: 2em;
+}
+
+main section {
+    margin-bottom: 2em;
+}
+
+main h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+main p {
+    font-size: 1.1em;
+}
+
+footer {
+    background-color: #f4b436;
+    padding: 1em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+footer p {
+    font-size: 0.8em;
+    color: #fff;
+    margin: 0;
+}
+#texte{
+    display: grid;
+    grid-area: A;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "A"
+                         "B"
+                         "C";
+}
+#Technique{
+    display: grid;
+    grid-area: A;
+
+}
+#Teamates{
+    display: grid;
+    grid-area: B;
+
+}
+#Performances{
+    display: grid;
+    grid-area: C;
+}
+
+#Photos{
+    display: grid;
+    grid-area: B;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:"A"
+                        "B"
+                        "C";
+}
+#p_technique img{
+    display: grid;
+    grid-area: A;
+}
+#p_teamates img{
+    display: grid;
+    grid-area: B;
+}
+#p_performance img{
+    display: grid;
+    grid-area: C;
+}
