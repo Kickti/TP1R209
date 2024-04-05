@@ -6,39 +6,37 @@
     <title>Formulaire</title>
     <link rel="stylesheet" href="style2.css">
 </head>
-<header>
-    <h1>Formulaire de Contact</h1>
-</header>
 <body>
-
+    <header>
+        <h1>Formulaire de Contact</h1>
+    </header>
     <form>
         <label for="pseudo">Votre Pseudo</label>
         <input type="text" id="pseudo" name="pseudo">
-        
+
         <label for="password">Votre Mot de passe</label>
         <input type="password" id="password" name="password">
-        
+
         <label for="email">Votre e-mail*</label>
         <input type="email" id="email" name="email">
-        
+
         <label for="subject">Objet du message*</label>
         <input type="text" id="subject" name="subject">
-        
+
         <label for="message">Votre message</label>
         <textarea id="message" name="message"></textarea>
-        
+
         <label for="priority">Niveau d'urgence*</label>
         <select id="priority" name="priority">
-          <option value="Lent">Lent</option>
-          <option value="urgent">Urgent</option>
-          <option value="normal">Normal</option>
+            <option value="Lent">Lent</option>
+            <option value="urgent">Urgent</option>
+            <option value="normal">Normal</option>
         </select>
-        
+
         <input type="checkbox" id="agree" name="agree" value="agree">
         <label for="agree">J'ai lu et j'accepte la politique de confidentialité du site.</label>
-        
+
         <input type="submit" value="Envoyer">
-      </form>
-    
+    </form>
 </body>
 </html>
